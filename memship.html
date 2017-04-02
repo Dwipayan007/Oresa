@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Oresa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+   <div class="container">
+	   	<div class="header-left">
+		    	<img src="images/logo.png" alt=" " class="img-responsive" />			 
+		  </div>
+				<div class="header-right">
+				<img src="images/side.png" alt=" " class="img-responsive" />
+
+					 </div>
+		
+</div>
+<nav class="navbar navbar-default navbar ">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar navb">
+        <li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+			  <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Memebership <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="memship.html">LogIn/SignUp</a></li>
+            <!--<li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>-->
+              <!--<li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>-->
+          </ul>
+        </li>
+			<li class="active grid"><a href="training.html">Training</a></li>
+		    <li><a  href="#">Projects</a></li>
+						 <li ><a  href="#">Events</a></li>
+						 <li ><a  href="#">Media Room</a></li>
+						 <li ><a  href="#">YellowPages</a></li>
+						 <li ><a  href="#">Circulars</a></li>
+						 <li ><a  href="#">Project Search</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+       	<img src="images/img1.png" alt=" " class="img-responsive" />
+      </div>
+      <div class="item">
+        	<img src="images/img2.png" alt=" " class="img-responsive" />
+      </div>
+      <div class="item">
+       	<img src="images/img3.png" alt=" " class="img-responsive" />
+      </div>
+      <div class="item">
+       	<img src="images/img4.jpg" alt=" " class="img-responsive" />
+      </div>
+      <div class="item">
+       	<img src="images/img6.jpg" alt=" " class="img-responsive" />
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- Container (About Section) -->
+<div id="training" class="container-fluid ">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+            <form role="form" class="form">
+                <h2>APPLICATION <small>FOR MEMBERSHIP</small></h2>
+                <hr class="colorgraph">
+                <div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="organisation" id="organisation" class="form-control input-md" placeholder="Name of the Organisation" ng-model="member.organisation" tabindex="1">
+                    </div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="pan" id="pan" class="form-control input-md" placeholder="PAN of the Organisation" ng-model="member.pan" tabindex="1">
+                    </div>
+					</div>
+					</div>
+					
+                    <div class="form-group">
+                        <input type="text" name="chairman" id="chairman" class="form-control input-md" placeholder="Chairman /MD" ng-model="member.chairman" tabindex="1">
+                    </div>
+                   
+               <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="password" placeholder="Password" class="form-control input-md" id="password" name="password" ng-model="member.password" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="password" placeholder="Conform Password"class="form-control input-md" id="cpassword" name="cpassword" ng-model="member.cpassword" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="number" name="phno" id="phno" class="form-control input-md" placeholder="Tel No." ng-model="member.phno" tabindex="1">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="fax" id="fax" class="form-control input-md" placeholder="Fax No." ng-model="member.fax" tabindex="2">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="number" name="mobile" id="mobile" class="form-control input-md" placeholder="Mobile No." ng-model="member.mobile" tabindex="1">
+                        </div>
+                    </div>
+					<div class="col-xs-12 col-sm-6 col-md-6">
+                   
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" class="form-control input-md" placeholder="Email ID" ng-model="member.email" tabindex="2">
+                       
+                    </div>
+                </div>
+				</div>
+				<div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="form-group">
+                    <input type="text" name="website" id="website" class="form-control input-md" placeholder="Website" ng-model="member.website" tabindex="3">
+                </div>
+				</div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="form-group">
+                    <input type="text" name="representative" id="representative" class="form-control input-md" placeholder="Name of the Representative" ng-model="member.representative" tabindex="4">
+                </div>
+				</div>
+				</div>
+                <div class="form-group">
+                    <input type="text" name="designation" id="designation" class="form-control input-md" placeholder="Designation" ng-model="member.designation" tabindex="4">
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="number" name="rmobile" id="rmobile" class="form-control input-md" placeholder="Mobile No." ng-model="member.rmobile" tabindex="1">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="email" name="remail" id="remail" class="form-control input-md" placeholder="Email ID" ng-model="member.remail" tabindex="2">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                         <div class="form-group">
+                                <select class="form-control" id="exampleSelect1">
+								  <option>Catagory</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+							  </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                         <div class="form-group">
+								<select class="form-control" id="exampleSelect1">
+							  <option>Price Range</option>
+							  <option>2</option>
+							  <option>3</option>
+							  <option>4</option>
+							  <option>5</option>
+							</select>
+						  </div>
+                    </div>
+                </div>
+                
+				 <div class="form-group">
+                        <textarea name="address" id="address" class="form-control input-md" ng-model="member.address" placeholder="Address"></textarea>
+                    </div>
+                <hr class="colorgraph">
+                <div class="row">
+                    <div class="col-md-2">
+                         
+                     </div>
+                     <div class="col-sm-8">
+                        <input type="submit" ng-click="saveMember(member)" class="btn btn-default btn-lg">
+                         <input type="submit" a href="#"  class="btn btn-default btn-lg" value="Cancel">
+                     </div>
+                    <div class="col-sm-2">
+                        
+                    </div>
+
+                </div>
+            </form>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+		
+
+<!-- Container (Services Section) -->
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+<p> Made By <a href="https://" title=""></a></p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
