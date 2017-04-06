@@ -98,6 +98,7 @@
     <Content Include="App\View\memlogin.html" />
     <Content Include="App\View\memprofile.html" />
     <Content Include="App\View\memship.html" />
+    <Content Include="App\View\profiledata.html" />
     <Content Include="packages.config" />
     <Content Include="bin\Oresa.dll.config" />
     <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />

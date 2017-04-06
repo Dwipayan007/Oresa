@@ -37,6 +37,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script src="Scripts/angular-route.js"></script>
     <script src="Scripts/angular-ui/ui-bootstrap-tpls.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.2.2/angular-local-storage.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
     <!--angular script-->
 </head>
 <body ng-controller="indexController">
@@ -69,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <div class="h_nav">
                                 <ul>
                                     <li ng-hide="authentication.isAuth"><a href="#/memlogin">Member Signup/Login</a></li>
-                                    <li ng-hide="!authentication.isAuth"><a href="">Member Profile</a></li>
+                                    <li ng-hide="!authentication.isAuth"><a href="#/memprofiledata">Member Profile</a></li>
                                     <li ng-hide="!authentication.isAuth"><a href="" ng-click="logOut()">Logout</a></li>
 
                                 </ul>

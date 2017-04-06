@@ -4,17 +4,16 @@ ores.factory("memProfileViewService", ["$http", "$q", "baseService", function ($
     var memProfileViewFactory = {};
 
     var _memProfileView = function (memID) {
+        debugger;
         var deffer = $q.defer();
-        $http.get(baseService + 'api/memProfileView/', memID, {
-            headers: { 'Content-Type': 'application/json;charset=utf-8' }
-        }).success(function (data, status) {
+        $http.get(baseService + 'api/MemProfileView/'+ memID).success(function (data, status) {
             deffer.resolve(data, status);
         }).error(function (result, status) {
             deffer.reject(result);
         });
         return deffer.promise;
     };
-    memProfileViewFactory.memProfileView = __memProfileView;
-    return devSignupFactory;
+    memProfileViewFactory.memProfileView = _memProfileView;
+    return memProfileViewFactory;
 
 }]);

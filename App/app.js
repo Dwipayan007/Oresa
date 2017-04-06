@@ -30,6 +30,10 @@ ores.config(["$routeProvider", function ($routeProvider) {
             controller: "memberProfileCntrl",
             templateUrl: "App/View/memprofile.html"
         })
+        .when("/memprofiledata", {
+            controller: "memProfileViewCtrl",
+            templateUrl: "App/View/profiledata.html"
+        })
         .when("/devsignup", {
             controller: "devSignupCtrl",
             templateUrl: "App/View/devsignup.html"
