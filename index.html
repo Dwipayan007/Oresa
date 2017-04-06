@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <li ng-hide="authentication.isAuth"><a href="#/memlogin">Member Signup/Login</a></li>
                                     <li ng-hide="!authentication.isAuth"><a href="">Member Profile</a></li>
                                     <li ng-hide="!authentication.isAuth"><a href="" ng-click="logOut()">Logout</a></li>
-                                   
+
                                 </ul>
                             </div>
                             <div class="row">
@@ -168,6 +168,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
     <!-- //footer -->
     <script src="App/app.js"></script>
+    <!--Controllers-->
     <script src="App/Controllers/indexController.js"></script>
     <script src="App/Controllers/homeController.js"></script>
     <script src="App/Controllers/devLoginCtrl.js"></script>
@@ -186,12 +187,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script src="App/Controllers/ypagesCntrl.js"></script>
     <script src="App/Controllers/devProfileCntrl.js"></script>
     <script src="App/Controllers/memberProfileCtrl.js"></script>
+    <script src="App/Controllers/memProfileViewCtrl.js"></script>
+    <!--Services-->
+    <script src="App/Services/memProfileViewService.js"></script>
     <script src="App/Services/memProfileService.js"></script>
     <script src="App/Services/memSignupService.js"></script>
     <script src="App/Services/devSignupService.js"></script>
     <script src="App/Services/ShareService.js"></script>
     <script src="App/Services/loginService.js"></script>
     <script src="App/Services/uploadService.js"></script>
+    <!--Directives-->
     <script src="App/Directives/imageUpload.js"></script>
+
 </body>
 </html>

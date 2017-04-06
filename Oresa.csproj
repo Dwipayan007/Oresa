@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9BD69B87-EA09-45A8-A02A-7412A4A587BF}</ProjectGuid>
+    <ProjectGuid>{15383F3C-EBDC-4E4B-8287-146C9A559E07}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -66,6 +66,38 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\app.js" />
+    <Content Include="App\Controllers\aboutController.js" />
+    <Content Include="App\Controllers\circularsCntrl.js" />
+    <Content Include="App\Controllers\devLoginCtrl.js" />
+    <Content Include="App\Controllers\devProfileCntrl.js" />
+    <Content Include="App\Controllers\devSignupCtrl.js" />
+    <Content Include="App\Controllers\eventsCntrl.js" />
+    <Content Include="App\Controllers\faqsCntrl.js" />
+    <Content Include="App\Controllers\homeController.js" />
+    <Content Include="App\Controllers\indexController.js" />
+    <Content Include="App\Controllers\mediaCtrl.js" />
+    <Content Include="App\Controllers\memberProfileCtrl.js" />
+    <Content Include="App\Controllers\membershipCtrl.js" />
+    <Content Include="App\Controllers\memLoginCtrl.js" />
+    <Content Include="App\Controllers\memProfileViewCtrl.js" />
+    <Content Include="App\Controllers\memSignupCtrl.js" />
+    <Content Include="App\Controllers\projectsCtrl.js" />
+    <Content Include="App\Controllers\psearchCntrl.js" />
+    <Content Include="App\Controllers\trainingCntrl.js" />
+    <Content Include="App\Controllers\ypagesCntrl.js" />
+    <Content Include="App\Directives\imageUpload.js" />
+    <Content Include="App\Services\devSignupService.js" />
+    <Content Include="App\Services\loginService.js" />
+    <Content Include="App\Services\memProfileService.js" />
+    <Content Include="App\Services\memProfileViewService.js" />
+    <Content Include="App\Services\memSignupService.js" />
+    <Content Include="App\Services\ShareService.js" />
+    <Content Include="App\Services\uploadService.js" />
+    <Content Include="App\View\home.html" />
+    <Content Include="App\View\memlogin.html" />
+    <Content Include="App\View\memprofile.html" />
+    <Content Include="App\View\memship.html" />
     <Content Include="packages.config" />
     <Content Include="bin\Oresa.dll.config" />
     <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
@@ -76,6 +108,8 @@
     <Content Include="LICENSE" />
     <Content Include="npm-debug.log.2893167247" />
     <Content Include="package.json" />
+    <Content Include="Scripts\angular-route.min.js.map" />
+    <Content Include="Scripts\angular.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -142,6 +176,15 @@
     <Content Include="obj\Debug\Oresa.WEB.csproj.FileListAbsolute.txt" />
     <Content Include="products.html" />
     <Content Include="register.html" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-route.js" />
+    <Content Include="Scripts\angular-route.min.js" />
+    <Content Include="Scripts\angular-ui\ui-bootstrap-tpls.js" />
+    <Content Include="Scripts\angular-ui\ui-bootstrap-tpls.min.js" />
+    <Content Include="Scripts\angular-ui\ui-bootstrap.js" />
+    <Content Include="Scripts\angular-ui\ui-bootstrap.min.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
     <Content Include="single.html" />
     <Content Include="sub_page.html" />
     <Content Include="sub_page2.html" />
@@ -155,9 +198,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\" />
     <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -132,9 +132,10 @@ body a:hover {
     text-decoration: none;
     background: url(../images/logo.png) no-repeat 0px 0px;
     display: block;
-    height: 100px;
+    height: 35px;
     width: 700%;
     padding-left: 1.8em;
+    margin-top: 13px;
 }
 
     .logo a:hover {
@@ -310,7 +311,7 @@ select.item_Size {
 
     .h_nav ul li a {
         display: block;
-        font-size: 0.95em;
+        font-size: 0.8em;
         color: #555;
         text-transform: capitalize;
         line-height: 1.8em;
@@ -318,7 +319,7 @@ select.item_Size {
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        line-height: 2.5em;
+        line-height: 2.9em;
     }
 
         .h_nav ul li a:hover {
@@ -329,6 +330,7 @@ select.item_Size {
 .mega_nav {
     background-color: #e6b800;
     box-shadow: 0px 6px 5px #CCCBCB;
+    margin-top:2px;
 }
 
 .search {
@@ -3114,8 +3116,8 @@ label.radio {
     }
 
     .products-grid-left {
-        top: -97px;
-        left: -42px;
+        top: -69px;
+        left: -39px;
         position: relative;
         /* overflow: visible; */
         z-index: 25;
@@ -3655,8 +3657,8 @@ label.radio {
     }
 
         .logo a {
-            background: url(../images/logo.png) no-repeat 0px 57px;
-            background-size: 50%;
+            background: url(../images/logo.png) no-repeat 0px 0px;
+            background-size: 45%;
         }
 
     .header_top {
@@ -4065,14 +4067,14 @@ label.radio {
     }
 
     .banner {
-        padding: 0.2em 0 0;
+        padding: 0 0 0 0;
     }
 
     .logo a {
-        height: 109px;
-        /* font-size: 1.3em; */
-        background: url(../images/logo.png) no-repeat 0px 61px;
-        background-size: 36%;
+        /* height: 109px; */
+        font-size: 1.43em;
+        background: url(../images/logo.png) no-repeat 0px -3px;
+        background-size: 50%;
     }
 }
 
