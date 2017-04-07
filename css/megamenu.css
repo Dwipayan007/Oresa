@@ -16,16 +16,16 @@
     }
 
     .megamenu > li > a {
-        float: left;
-        padding: 15px 28px;
-        text-decoration: none;
-        text-transform: capitalize;
-        font-size: 14px;
-        -webkit-transition: all 0.3s ease-in-out;
-        text-transform: capitalize;
-        -moz-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
+       float: left;
+    padding: 7px 28px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+    -webkit-transition: all 0.3s ease-in-out;
+    text-transform: capitalize;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     }
 
     .megamenu > li.active > a {
@@ -92,19 +92,19 @@
             }
 
     .megamenu > li > .megapanel {
-        position: absolute;
-        display: none;
-        background: #fff;
-        box-shadow: 3px 1px 11px #777;
-        border-radius: 3px;
-        /* width: 25.2%; */
-        top: 50px;
-        left: 12.8%;
-        z-index: 99;
-        padding: 0px 10px 0px 3px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
+            position: absolute;
+    display: none;
+    background: #fff;
+    box-shadow: 3px 1px 11px #777;
+    border-radius: 3px;
+    width: 11%;
+    top: 32px;
+    left: 15.2%;
+    z-index: 99;
+    padding: 0px 10px 0px 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     }
 
     .megamenu .megapanel ul {

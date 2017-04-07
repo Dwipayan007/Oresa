@@ -1,11 +1,11 @@
 ﻿/// <reference path="../app.js" />
-ores.factory("loginService", ["$http", "$q", "localStorageService", "baseService", function ($http, $q, localStorageService,baseService) {
+ores.factory("loginService", ["$http", "$q", "localStorageService", "baseService", function ($http, $q, localStorageService, baseService) {
 
     var _authentication = {
         isAuth: false,
         username: "",
         userType: "",
-        uid:""
+        uid: ""
     };
 
     var loginServiceFactory = {};
@@ -15,7 +15,8 @@ ores.factory("loginService", ["$http", "$q", "localStorageService", "baseService
         $http.post(baseService + 'api/Login/', ldata, {
             headers: { 'Content-Type': 'application/json;charset=utf-8' }
         }).success(function (data, status) {
-            if (data !== false) {
+            debugger;
+            if (data !== false || data !== "") {
                 _authentication.isAuth = true;
                 _authentication.username = ldata.username;
                 _authentication.userType = ldata.userType;
@@ -39,7 +40,7 @@ ores.factory("loginService", ["$http", "$q", "localStorageService", "baseService
                 _authentication.username = ldata.username;
                 _authentication.userType = ldata.userType;
                 _authentication.uid = data;
-                localStorageService.set('authorizationData', { userName: ldata.username, userType: ldata.userType ,uid:data});
+                localStorageService.set('authorizationData', { userName: ldata.username, userType: ldata.userType, uid: data });
             }
             deffer.resolve(data, status);
         }).error(function (result, status) {

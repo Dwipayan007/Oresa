@@ -34,3 +34,21 @@ D:\Oresa\oresa.API\Oresa\bin\Oresa.pdb
 D:\Oresa\oresa.API\Oresa\obj\Debug\Oresa.csprojResolveAssemblyReference.cache
 D:\Oresa\oresa.API\Oresa\obj\Debug\Oresa.dll
 D:\Oresa\oresa.API\Oresa\obj\Debug\Oresa.pdb
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\csc.exe
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\vbc.exe
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\VBCSCompiler.exe
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\Oresa.dll.config
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\Oresa.dll
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\bin\Oresa.pdb
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\obj\Debug\Oresa.csprojResolveAssemblyReference.cache
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\obj\Debug\Oresa.dll
+C:\Users\Daipayan\documents\visual studio 2015\Projects\Oresa\Oresa\obj\Debug\Oresa.pdb
